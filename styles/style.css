@@ -374,13 +374,15 @@
  line-height: 30px;
  font-size: 18px;
  display: flex;
+ align-items: center;
   
 }
-.footer__social-ico {
+.footer__social-icon {
   width: 16px;
   height: 16px;
+  padding-right: 10px;
+  
 }
-
 
 
 
