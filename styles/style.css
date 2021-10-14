@@ -9,7 +9,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-                        /* Псевдоклассы*/
+                        /* Псевдоэлементы*/
 
 .font_24px {
   font-size: 24px;
@@ -59,11 +59,11 @@
 }
 
 .logo_place_header {
-   height: 32px;
-   width: 183px;
-   position: absolute;
-   top: 30px;
-   left: 64px;
+  height: 32px;
+  width: 183px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
 }
 
 .header__subtitle {
@@ -339,13 +339,13 @@
 }
 
 .foter__column-link {
- line-height: 30px;
- font-size: 18px;
- font-weight: normal;
- color:  white;
- text-decoration: none;
- display: flex;
- align-items: center;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color:  white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .footer__social-icon {
   width: 16px;
