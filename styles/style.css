@@ -89,7 +89,7 @@
   position: absolute;
   top: 64px;
   right: 0px;
-  background-color:#2f80ed ;
+  background-color:#2f80ed;
 }
 
 .main-illustration {
@@ -186,7 +186,7 @@
 
                                 /* Фейман */
 .feynman {
-  background-color: #f2f2f2 ;
+  background-color: #f2f2f2;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -208,7 +208,7 @@
   font-size: 120px;
   font-weight: bold;
   z-index: 2;
-  margin: 100px auto 0px auto ;
+  margin: 100px auto 0px auto;
   text-align: center;
   width: 648px;
 }
