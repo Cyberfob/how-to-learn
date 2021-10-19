@@ -8,34 +8,6 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-                        /* Псевдоэлементы*/
-
-.font_24px {
-  font-size: 24px;
-}
-
-.line_h_34px {
-  line-height: 34px;
-}
-
-.font_w_normal {
-  font-weight: normal;
-}
-
-.margin_30px_auto {
-  margin: 30px auto;
-}
-
-.margin_0px_auto {
-  margin: 0px auto; 
-}
-
-/*Для отладки*/
-.border {  
-  /* border: 1px solid red; */
-}
-
                           /* Header */
 .header {
   height: 100vh;
@@ -163,8 +135,11 @@
   margin-bottom: 100px;
 }
 
-.section-title {
+.section-title_theme_white {
   margin: 0px auto;
+}
+
+.section-title {
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
@@ -285,32 +260,13 @@
   z-index: 2;
 }
 
-.kaufman__section-title {
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
-  z-index: 2; 
-}
-
-.kaufman__section-title_theme_dark {
-  margin: 0px auto;
-  margin-top: 90px;
-}
-
-.kaufman__section-subtitle {
-  width: 60%;
-  text-align: center;
-  margin-top: 20px;
+.section-title_theme_dark {
   z-index: 2;
+  margin: 90px 0px 0px 0px;
 }
 
-.kaufman__section-subtitle_theme_dark {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 0px auto;
+.section-subtitle_theme_dark {
+  z-index: 2;
 }
 
 .table_theme_dark {
